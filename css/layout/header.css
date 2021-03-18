@@ -1,0 +1,61 @@
+#header {
+    border: 1px solid #dedede;
+    position: absolute;
+    left:200px;
+    right:0;
+    height: 60px;
+    top:0;
+    /* background-color: #4cff00; */
+}
+
+.header-left{
+    position: absolute;
+    left: 48px;
+    top: 11px;
+}
+
+.header-left .header-left-text{display: inline-block;font-size: 15px;font-weight: bold;}
+
+.header-left .header-left-icon{
+    display: inline-block;
+    transform: rotate(-90deg);
+    width: 31px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-right{
+    position: absolute;
+    right: 24px;
+    top: 25px;
+    transform: translate(0px, -10px);
+}
+
+.header-right .header-right-avatar{
+    display: inline-block;
+    background-image: url('../../content/icon/avatar-default.png');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.header-right .header-right-name{
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
+    transform: translate(0px, -10px);
+}
+
+.header-right .header-right-icon{
+    background-image: url("../../content/icon/option.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 14px;
+    /* background-size: contain; */
+    cursor: pointer;
+    margin-left: 5px;
+    transform: translate(0px, -10px);
+}

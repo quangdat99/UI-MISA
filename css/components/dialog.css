@@ -1,0 +1,198 @@
+.dialog{
+    
+}
+
+.dialog .model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: #000000;
+    opacity:.4;
+}
+
+    .dialog .dialog-content {
+        /* padding: 24px; */
+        position: fixed;
+        top: calc(50% - 300px);
+        left: calc(50% - 400px);
+        width: 800px;
+        height: 600px;
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+
+    .dialog-header{height: 50px;}
+
+
+    .dialog .dialog-title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .dialog .dialog-close-button {
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 0 4px 0 4px;
+    }
+
+    .dialog .dialog-close-button:hover{
+        background-color:#bbb;
+        cursor: pointer;
+    }
+
+.dialog-body{
+    padding: 20px;
+    height: 430px;
+}
+
+.dialog-body .dialog-avatar{
+    position: absolute;
+    width: 216px;
+    height: 200px;
+}
+
+.dialog-body .dialog-customer-code {left: 250px;/* height: 100px; */position: absolute;}
+
+.dialog-body .dialog-customer-name {right: 20px;position: absolute;}
+
+.dialog-body .dialog-member-code {left: 250px;position: absolute;top: 160px;}
+
+.dialog-body .dialog-customer-group {top: 160px;right: 20px;position: absolute;}
+
+.dialog-body .dialog-birthday {left: 250px;position: absolute;top: 230px;}
+
+.dialog-body .dialog-sex {top: 230px;position: absolute;left: 526px;}
+
+.dialog-body .dialog-email{
+
+position: absolute;
+
+bottom: 230px;
+
+width: 484px;
+}
+
+.dialog-body .dialog-phone{
+
+position: absolute;
+
+bottom: 230px;
+
+right: 20px;
+}
+
+.dialog-body .dialog-company-name{
+
+position: absolute;
+
+bottom: 155px;
+
+width: 484px;
+}
+
+.dialog-body .dialog-address{
+
+position: absolute;
+
+bottom: 80px;
+
+width: calc(100% - 40px);
+}
+
+.dialog-body .dialog-tax-code{
+
+position: absolute;
+
+right: 20px;
+
+bottom: 155px;
+}
+
+.dialog-footer {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: #e5e5e5;
+    bottom: 0px;
+    border-radius: 0 0 4px 4px;
+}
+
+.dialog-label{
+    height: 20px;
+    font-size: 13px;
+}
+.dialog-avatar .dialog-image{
+    background-image: url('../../content/img/default-avatar.jpg');
+    height: 167px;
+    width: 167px;
+    background-size: contain;
+    border-radius: 50%;
+    left: 27px;
+    position: absolute;
+    border: 1px solid #bbbbbb;
+}
+
+.dialog-avatar .dialog-avatar-text{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+
+.dialog-avatar .dialog-avatar-text-b{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.checkbox-sex {
+    width: 253px;
+    margin-top: 8px;
+}
+.checkbox-sex .checkbox-male{
+    position: absolute;
+    left: 10px;
+}
+
+.checkbox-sex .checkbox-female{
+    left: 90px;
+    position: absolute;
+}
+
+.checkbox-sex .checkbox-other{
+    position: absolute;
+    left: 159px;
+}
+
+.checkbox-unchecked{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkbox-checked {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url('../../content/icon/radio-checked.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.checkbox-text {position: absolute;left: 27px;top: 0px;}
